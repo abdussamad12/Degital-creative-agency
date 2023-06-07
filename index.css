@@ -160,6 +160,7 @@
     margin-top: 20px;
     border: none;
     border-radius: 3px;
+    margin-left: -9px !important;
   }
 
 .third-section {
@@ -184,10 +185,7 @@
     font-family: Montserrat;
 }
 
-.galary-image {
-    width: 380px;
-    height: 200px !important;
-}
+
 
 #myImg {
     border-radius: 0px;
@@ -294,6 +292,7 @@
 .three-icon{
     color: yellow !important;
     padding: 10px;
+    text-decoration: none;
 }
 
 /* 100% Image Width on Smaller Screens */
@@ -318,7 +317,7 @@
 }
 
 .david2 {
-    font-size: 18px;
+    font-size: 1vw;
     font-weight: 700;
     padding-top: 0px;
     text-align: center;
@@ -380,6 +379,7 @@ justify-content: space-around;
     font-size: 16px;
     font-family: Montserrat;
     width: 100%;
+    margin: 0px !important;
   }
   .text-first{
 border-radius: 10px;
@@ -462,9 +462,7 @@ font-family: Montserrat;
         margin-top: 40px !important;
       }
       
-      .myImages{
-        width: 90% !important;
-      }
+     
       .image-two{
         width: 33.333% !important;
       }
@@ -484,6 +482,13 @@ font-family: Montserrat;
         border: none;
         border-radius: 3px;
       }
+      .david2 {
+        font-size: 3vw;
+        font-weight: 700;
+        padding-top: 0px;
+        text-align: center;
+        color: white;
+    }
       .span {
         font-size: 22px;
         font-weight: 800;
@@ -511,7 +516,13 @@ font-family: Montserrat;
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-
+    .david2 {
+        font-size: 3vw;
+        font-weight: 700;
+        padding-top: 0px;
+        text-align: center;
+        color: white;
+    }
 }
     /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
